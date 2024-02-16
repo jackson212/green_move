@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <!-- font awesome cdn link  -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+       <!-- custom css file link  -->
+       <link rel="stylesheet" href="/css/main.css">
+
+       <script src="/script/main.js"></script>
+       <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      
+</head>
+<body>
+
+    <header class="header">
+
+        <a href="#" class="logo">Save green</a>
+    
+        <nav class="navbar">
+            <a href="../html/Main.html">Home</a>
+            <a href="#posts">Anouncement</a>
+            <a href="#contact">Contact me</a>
+            <a href="../html/AboutUs.html">About us</a>
+            <a href="../html/login.html">Login</a>
+            <a href="/html/donationPage.html">
+            <button class="green-button">Donate  Here</button>
+            </a>
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+    
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    
+    </header>
+    
+    <!---image sliding  banner-->
+
+                             
+        <div class="slider">
+            <img class="img" id="img-1" src="/img/baner1.jpg" alt="Image 1"/>
+            <img class="img" id="img-2" src="/img/baner2.jpg" alt="Image 2"/>
+            <img  class="img" id ="img-3" src="/img/baner3.jpg" alt="Image 3"/>
+          </div>
+          <div class="navigation-button">
+            <span class="dot active" onclick="changeSlide(0)"></span>
+            <span class="dot" onclick="changeSlide(1)"></span>
+            <span class="dot" onclick="changeSlide(2)"></span>
+          </div>               
+
+
+   
+
+
+    <section class="about container" id="about">
+        <div class="contentBx">
+            <h2 class="titleText">Catch up with the trending topics</h2>
+            <p class="title-text">
+              <br>"Save Green" is a concept or initiative aimed at promoting environmental conservation and sustainability. It emphasizes the importance of protecting the planet's natural resources, reducing waste, and adopting eco-friendly practices to mitigate climate change and preserve biodiversity. Saving green can involve actions such as recycling, using renewable energy sources, supporting conservation efforts, and advocating for policies that protect the environment. By saving green, individuals and communities contribute to a healthier, more sustainable future for all living beings.
+            </p>
+            <a href="#" class="btn2">Read more</a>
+        </div>
+        <div class="imgBx">
+            <img src="/img/pexels-greta-hoffman-7728739.jpg" alt="" class="fitBg">
+        </div>
+    </section>
+
+    <div class="post-filter container">
+       
+        <span class="filter-item" data-filter="tech">Tech</span>
+        <span class="filter-item" data-filter="food">Announcement</span>
+        <span class="filter-item" data-filter="news">News</span>
+    </div>
+    <div class="post container">
+        <!-- Post 1 -->
+        <div class="post-box tech">
+            <img src="/img/solar.jpg" alt="" class="post-img">
+            <h2 class="category">tech</h2>
+            <a href="#" class="post-title">Solar Power</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Solar technologies convert sunlight into electrical energy either through photovoltaic (PV) panels or through mirrors that concentrate solar radiation. This energy can be used to generate electricity or be stored in batteries or thermal storage.</p>
+            <div class="profile">
+                <img src="" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 2 -->
+        <div class="post-box food">
+            <img src="/img/app.jpg" alt="" class="post-img">
+            <h2 class="category">app</h2>
+            <a href="#" class="post-title">Introdcing a new app to join</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="/img/app.jpg" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 3 -->
+        <div class="post-box food">
+            <img src="/img/strike.jpeg" alt="" class="post-img">
+            <h2 class="category">protest</h2>
+            <a href="#" class="post-title">Gather for a protesting against climate change</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">jackson</span>
+            </div>
+        </div>
+        <!-- Post 4 -->
+        <div class="post-box news">
+            <img src="/img/aoc.jpg" alt="" class="post-img">
+            <h2 class="category">news</h2>
+            <a href="#" class="post-title">green new deal</a>
+            <span class="post-date">12 Feb 2024</span>
+            <p class="post-description">he Global Green New Deal lays out a set of principles to be adopted by cities worldwide and takes a collaborative approach to climate action. The Global Green New Deal coalition is a vital part of this work. It comprises political leaders, investors, businesses, labour unions, young people, civil society and communities disproportionately impacted by the climate crisis and poverty.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">jackson</span>
+            </div>
+        </div>
+        <!-- Post 5 -->
+        <div class="post-box tech">
+            <img src="/img/windmill.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title">How to create the best UI with Figma</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 6 -->
+        <div class="post-box news">
+            <img src="/img/golbal warming.jpg" alt="" class="post-img">
+            <h2 class="category">News</h2>
+            <a href="#" class="post-title">Global warming</a>
+            <span class="post-date">12 jan 2024</span>
+            <p class="post-description">Its impacts fall most heavily on the most vulnerable. While the impacts of climate change touch everyone, research shows they hit women and girls hardest. That disproportionate effect is due to existing vulnerabilities, a lack of economic opportunities, and a higher dependence on natural resources for their livelihoods and survival.
+
+                But women are not destined to be victims. Across the globe, women play an essential role in tackling climate change, including the daily choices that drive positive actions and impact. In communities in sub-Saharan Africa, where 600 million people still lack access to electricity, women manage the household energy choices. That can be anything from replacing a kerosene lamp with solar technology to cooking over a more efficient cookstoveLorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, similique, rerum excepturi harum, vitae facilis corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 7 -->
+        <div class="post-box tech">
+            <img src="/img/Ai.jpg" alt="" class="post-img">
+            <h2 class="category">Tech</h2>
+            <a href="#" class="post-title"></a>Ai to save earth
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">The fourth industrial revolution begins affecting many companies, as Artificial Intelligence Technologies are faster, more adaptable and more efficient and develop the world in a more digital way.
+            AI is the biggest economic-changer in the world. With its gradual increase in the scope of its demand, it is expected to reach all areas within the year 2030.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 1 -->
+        <div class="post-box news">
+            <img src="/img/alberta.jpg" alt="" class="post-img">
+            <h2 class="category">Alberta  fire</h2>
+            <a href="#" class="post-title">Alberta wildfire</a>
+            <span class="post-date">12 Feb 2022</span>
+            <p class="post-description">Alberta Wildfire says it saw an average number of wildfires last year, but the area burned across the province set a record.
+
+                The province saw a total of 1,088 wildfires that burned about 2.2 million hectares from March 1 to Oct. 31. The five-year average for area burned about 226,000 hectares
+                
+                Melissa Story, community relations co-ordinator for the wildfire management branch in Alberta Forestry and Parks, said 2023 was a record-breaking year.
+                
+                "The number of wildfires that we responded to last year was average — but the number of hectares burned tells a very different story," she said in an interview.
+                
+                More than 60 per cent of wildfires were caused by people, while four per cent are still being investigated.
+                
+                Story said the other 35 per cent of the wildfires were caused by lightning.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">MKHB</span>
+            </div>
+        </div>
+        <!-- Post 9 -->
+        <div class="post-box food">
+            <img src="/img/meet.jpg" alt="" class="post-img">
+            <h2 class="category">Meet ups</h2>
+            <a href="#" class="post-title">Save green meetups</a>
+            <span class="post-date">12 dec 2023</span>
+            <p class="post-description">Meet other local people interested in Green Living: share experiences, inspire and encourage each other! Join a Green Living group. 552,022. members. corrupti vel modi debitis est perferendis aut quasi ea unde repudiandae iste architecto. Corporis, voluptates.</p>
+            <div class="profile">
+                <img src="images/testi1.jpg" alt="" class="profile-img">
+                <span class="profile-name">alice</span>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <footer>
+            <div class="footer-container">
+                <div class="sec aboutus">
+                    <h2>About Us</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quisquam minus quo illo numquam vel incidunt pariatur hic commodi expedita tempora praesentium at iure fugiat ea, quam laborum aperiam veritatis.</p>
+                    <ul class="sci">
+                        <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-twitter"></i></a></li>
+                        <li><a href="#"><i class="bx bxl-linkedin"></i></a></li>
+                    </ul>
+                </div>
+                <div class="sec quicklinks">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="../html/Main.html">Home</a></li>
+                        <li><a href="../html/AboutUs.html">About</a></li>
+                    </ul>
+                </div>
+                <div class="sec contactBx">
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li>
+                            <span><i class='bx bxs-map'></i></span>
+                            <span>272727 mayin Neyork<br> Brighton PA 33445 <br> NY</span>
+                        </li>
+                        <li>
+                            <span><i class='bx bx-envelope' ></i></span>
+                            <p><a href="mailto:codemyhobby9@gmail.com">jacksongeorge770@gmail.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+   
+
+
+
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="/script/main.js"></script>
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <script
+  src="https://code.jquery.com/jquery-3.7.1.js"
+  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+  crossorigin="anonymous"></script>
+
+
+    </body>
+</html>

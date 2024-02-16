@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/about.css">
+</head>
+<body>
+    
+<div class="heading">
+
+    <h1>About Us</h1>
+    <p>The Green Movement generally refers to a diverse range of political, social, and environmental movements and ideologies focused on advocating for environmental protection, conservation, and sustainability. </p>
+
+        
+</div>
+
+<div class="conntainer">
+  
+    <section class="about">
+        <div class="about-image">
+            <img src="../img/pexels-cottonbro-studio-3826672.jpg">
+
+         
+        </div>
+
+        <div class="about-content">
+            <h2>Warm embrace in cup ]</h2>
+            <p>
+     type here
+            </p>
+<a href="" class="read-more"></a>
+             
+        </div>
+
+    </section>
+
+
+</div>
+
+</body>
+</html>
